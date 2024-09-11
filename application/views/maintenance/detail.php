@@ -114,7 +114,7 @@
     $waktu    =10;
 ?>-->
                         <div class="col-md-5 "> 
-                        <!--<br><meta http-equiv="<?=$respon?>" content="<?=$waktu?>"/>--> auto refresh
+                        <!--<br><meta http-equiv="<?=$respon?>" content="<?=$waktu?>"/>-->
                             <div class="box box-primary direct-chat direct-chat-primary">
                           <div class="box-header with-border">
                             <h3 class="box-title">History Proses Perbaikan</h3>
@@ -160,7 +160,7 @@
 							?>  
                               <div class="input-group">
 								<input type="text" hidden name="kode" value="<?php echo $recordall['no_permohonan'] ?>">
-                                <input type="text" name="catatan" placeholder="Type Message ..." class="form-control" required oninvalid="setCustomValidity('Not Empty Message !')" oninput="setCustomValidity('')">
+                                <input type="text" name="catatan" placeholder="Type Message ..." autofocus class="form-control" required oninvalid="setCustomValidity('Not Empty Message !')" oninput="setCustomValidity('')">
                                 <span class="input-group-btn">
                                   <button type="submit" name="submit" class="btn btn-primary btn-flat">Send</button>								  
                                 </span>
