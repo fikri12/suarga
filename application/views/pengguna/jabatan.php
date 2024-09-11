@@ -24,7 +24,7 @@
                         <div class="form-group">
                             <label for="example">Jabatan</label>
                             <input type="text" name="nama_jabatan" class="form-control" required oninvalid="setCustomValidity('Jabatan Harus di Isi !')"
-                                   oninput="setCustomValidity('')" placeholder="ex: Staf" >
+                                   oninput="setCustomValidity('')" placeholder="ex: Staf" autofocus >
                                    <?php echo form_error('nama_jabatan', '<div class="text-red">', '</div>'); ?>
                         </div>                        
                     </div><!-- /.box-body -->
