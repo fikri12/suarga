@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Suarga IT Assets Management & Tiketing</title>
+    <title>Suarga IT Tiketing</title>
     <link href='<?php echo base_url("assets/img/favicon.ico"); ?>' rel='shortcut icon' type='image/x-icon'/>
     <link rel="stylesheet" href="<?php echo base_url('assets/css/font-awesome.min.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>">
